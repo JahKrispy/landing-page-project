@@ -84,3 +84,18 @@ button {
     font-size: 14px;
 }
 
+.container-2 {
+    text-align: center;
+}
+
+.info-items {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info-image img {
+    width: 100px;
+    height: auto;
+}
+
