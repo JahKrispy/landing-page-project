@@ -49,7 +49,8 @@ ul {
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 8px;
+    margin-right: 24px;
+    gap: 16px
 }
 
 .container-1 {
@@ -126,4 +127,39 @@ button {
     max-width: 350px;
     font-weight: bolder;
     justify-content: right;
+}
+
+.container-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.call-content {
+    max-height: 125px;
+    max-width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 60vw;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: space-around;
+    height: 20vw;
+    padding-left: 10vw;
+    border-radius: 4px 0 0 4px;
+}
+
+.call-button {
+    background-color: #3882f6;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    padding-right: 10vw;
+    border-radius: 0 4px 4px 0;
+}
+
+.call-text {
+    color: white;
 }
