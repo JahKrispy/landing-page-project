@@ -7,6 +7,8 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 8px;
+    background-color: #1f2937;
+    height: 100px;
 }
 
 .logo-bb-container {
@@ -32,3 +34,35 @@ ul {
     display: flex;
     gap: 8px;
 }
+
+.container-1 {
+    display: flex;
+    background-color: #1f2937;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header img {
+    height: 100px;
+    width: auto;
+}
+
+.container-1 img {
+    width: 40vw;
+    height: auto;
+    max-width: 850px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+button {
+    max-width: 100px;
+    border-radius: 12px;
+    background-color: #3882f6;
+}
+
