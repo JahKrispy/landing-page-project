@@ -1,6 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 .header {
@@ -22,9 +25,23 @@ body {
     align-items: center;
 }
 
-a {
-    color: black;
+a, .hero-second {
     text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+.logo-text, .hero-main {
+    color: #f9faf8;
+}
+
+.logo-text {
+    font-size: 24px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 ul {
@@ -40,7 +57,7 @@ ul {
     background-color: #1f2937;
     gap: 16px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .header img {
@@ -62,7 +79,8 @@ ul {
 
 button {
     max-width: 100px;
-    border-radius: 12px;
+    border-radius: 8px;
     background-color: #3882f6;
+    font-size: 14px;
 }
 
